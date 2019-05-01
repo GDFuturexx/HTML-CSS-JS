@@ -1,0 +1,5 @@
+<view class='startPage'>
+    <image class='img' src='../../assets/img/gb.jpg'></image>
+
+    <image bindtap='goGame' class='startBtn' src='../../assets/img/game_btn_star.png'></image>
+</view>

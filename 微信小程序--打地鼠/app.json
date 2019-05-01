@@ -1,0 +1,16 @@
+{
+  "pages": [
+  
+    "pages/startPage/startPage",
+    "pages/endGame/endPage",
+    "pages/game/game",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  }
+}

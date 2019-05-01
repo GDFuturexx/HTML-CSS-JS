@@ -1,0 +1,18 @@
+<view class='game'>
+    <image class='bg1' src='../../assets/img/game_youxi_bg.jpg'></image>
+
+    <image class='clock' src='../../assets/img/countdown_time.png'></image>
+    <view class='time'>剩余{{time}}S</view>
+    <image class='fenxiang' src='../../assets/img/countdown_share.png'></image>
+
+    <view class='gameText'>你还有<view class='count'>{{count}}</view>次机会</view>
+
+    <!-- 循环出小老鼠 -->
+    <view class='mouse' >
+      <view wx:for='{{mouse}}' wx:for-item='item' wx:for-index='index' wx:key='{{index}}' data-index='{{index}}' bindtap='clickMice'>
+        <image src='{{item.src}}' data-index='{{index}}' ></image>
+      </view>
+    
+    
+    </view>
+</view>

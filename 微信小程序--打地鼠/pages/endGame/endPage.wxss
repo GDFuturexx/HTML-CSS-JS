@@ -1,0 +1,53 @@
+/* pages/endGame/endPage.wxss */
+.score{
+  position: relative;
+}
+
+.score>.scoreText{
+  position: absolute;
+  width: 100vw;
+  text-align: center;
+  left: 0;
+  top: 350rpx;
+  font-size:60rpx;
+  font-weight: bolder;
+  color: whitesmoke;
+}
+
+.score>.scoreText>text{
+  font-size: 100rpx;
+  color: #fff;
+  box-shadow: 0 0 30rpx orange,0 0 45rpx snow;
+}
+.score .img1{
+  width: 750rpx;
+  height: 750rpx;
+  position: absolute;
+  top: 50rpx;
+  left: 0;
+}
+.score .imgEnd{
+  width: 750rpx;
+  height: 100vh;
+}
+
+
+.engBtn{
+  width: 350rpx;
+  height: 100rpx;
+  position: absolute;
+  left: 200rpx;
+  bottom: 260rpx;
+  animation: btn1 1.5s infinite alternate;
+}
+@keyframes btn1{
+  0%{
+    filter: brightness(1);
+    transform: scale(1.1)
+    
+  }
+  100%{
+    filter:brightness(1.2);
+    transform: scale(1.2)
+  }
+}

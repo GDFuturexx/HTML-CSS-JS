@@ -1,0 +1,29 @@
+.startPage{
+  width:750rpx; 
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+.startPage .img{
+  width: 100%;
+  height: 100%;
+}
+.startPage .startBtn{
+  width: 350rpx;
+  height: 200rpx;
+  position: absolute;
+  left: 200rpx;
+  bottom: 100rpx;
+  animation: btn 1.5s infinite alternate;
+}
+@keyframes btn{
+  0%{
+    filter: brightness(1);
+    transform: scale(1)
+    
+  }
+  100%{
+    filter:brightness(1.2);
+    transform: scale(1.2)
+  }
+}

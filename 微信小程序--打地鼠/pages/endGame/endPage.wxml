@@ -1,0 +1,18 @@
+<!--pages/endGame/endPage.wxml-->
+<view>
+
+
+<view class='score'>
+
+<image class='imgEnd' src='../../assets/img/game_bg.jpg'></image>
+<image class='img1' src='../../assets/img/pop_score_bg.png'></image>
+<view class='scoreText'>
+  恭喜拿下  <text>{{score}}</text> 分
+</view>
+
+</view>
+
+
+
+<button class='engBtn' type='warn' bindtap='restart'>重新游戏</button>
+</view>

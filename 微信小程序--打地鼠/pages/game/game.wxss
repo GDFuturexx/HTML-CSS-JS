@@ -1,0 +1,75 @@
+.game{
+  width:750rpx; 
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+.game .bg1{
+  width: 100%;
+  height: 100%;
+}
+.game .fenxiang{
+  width: 80rpx;
+  height: 130rpx;
+  position: absolute;
+  right: 20rpx;
+  top: 10rpx;
+}
+.game .clock{
+  width: 300rpx;
+  height: 120rpx;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.time{
+  width:180rpx;
+  height: 75rpx;
+  position: absolute;
+  top: 45rpx;
+  left: 120rpx;
+  font-size: 40rpx;
+  line-height:75rpx;
+  color: black;
+  letter-spacing: 5rpx;
+}
+
+.gameText{
+  width: 550rpx;
+  height: 75rpx;
+  position: absolute;
+  top: 180rpx;
+  left: 120rpx;
+  text-align: center;
+  font-size: 65rpx;
+  line-height: 75rpx;
+  display: flex;
+  justify-content: space-around;
+  color: snow;
+  font-weight: bolder;
+  border: 1px solid snow;
+  box-shadow: 0 0 35rpx yellow;
+}
+.count{
+  width: 100rpx;
+  height: 75rpx;
+  font-size: 150rpx;
+  color: red;
+  margin: 0 20rpx;
+}
+
+
+.mouse{
+  width:680rpx;
+  height: 650rpx;
+  position: absolute;
+  left:35rpx;
+  bottom: 30rpx;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.mouse image{
+  width: 164rpx;
+  height: 150rpx;
+}
