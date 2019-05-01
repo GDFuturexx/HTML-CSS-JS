@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=1004,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/main.css" />
+		<title>个人信息</title>
+	</head>
+
+	<body>
+		<div class="head1">
+			<div class="headLogo1"><span id="sp1">个人信息</span></div>
+		</div>
+		<div class="grxxTouxiang">
+			<div class="touxiang"></div>
+			<span>狄仁杰&nbsp;&nbsp;&nbsp;&nbsp;女</span>
+		</div>
+		<div class="grxxXiangxi">
+			<div class="xinxi" style="margin-top: 44px;">
+				<span class="xxMingcheng">手机号：</span>
+				<span class="xxNeirong">18000005888</span>
+			</div>
+			<div class="xinxi">
+				<span class="xxMingcheng">身份证号：</span>
+				<span class="xxNeirong">166000196600000000</span>
+			</div>
+			<div class="xinxi">
+				<span class="xxMingcheng">出生年月：</span>
+				<span class="xxNeirong">2018-08-08</span>
+			</div>
+			<div class="xinxi">
+				<span class="xxMingcheng">常住地址：</span>
+				<span class="xxNeirong">广东省珠海市高新区创新三路60号...</span>
+			</div>
+			<div class="xinxi">
+				<span class="xxMingcheng">有效期：</span>
+				<span class="xxNeirong">2088-08-27</span>
+			</div>
+			<div class="xinxi">
+				<span class="xxMingcheng">培训记录：</span>
+				<span class="xxNeirong">---</span>
+			</div>
+
+			<div class="tuichudenglu">
+				<span>退出登录</span>
+			</div>
+		</div>
+
+		<div class="foot">
+			<div class="divFoot"></div>
+			<div class="divFoot"></div>
+			<div class="divFoot"></div>
+			<div class="divFoot"><img src="img/雄安实名制移动端_登录页_11.png" /></div>
+		</div>
+
+		<script type="text/javascript">
+			var foot1 = document.querySelector('.foot .divFoot:nth-child(1)')
+			var foot2 = document.querySelector('.foot .divFoot:nth-child(2)')
+			var foot3 = document.querySelector('.foot .divFoot:nth-child(3)')
+			var foot4 = document.querySelector('.foot .divFoot:nth-child(4)')
+			foot1.onclick = function() {
+				window.location.href = 'index.html'
+			}
+			foot2.onclick = function() {
+				window.location.href = 'gongzuolvli.html'
+			}
+			foot3.onclick = function() {
+				window.location.href = 'pingjia.html'
+			}
+			foot4.onclick = function() {
+				window.location.href = 'gerenxinxi.html'
+			}
+			var tuichudenglu = document.querySelector('.tuichudenglu')
+
+			tuichudenglu.onclick = function() {
+				window.location.href = "denglu.html"
+			}
+		</script>
+	</body>
+
+</html>

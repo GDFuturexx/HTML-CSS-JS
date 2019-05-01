@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=1004,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/main.css" />
+		<title>我的评价/收到的评价</title>
+	</head>
+
+	<body>
+		<div class="head1">
+			<div class="headLogo1"><span id="sp1">我的评价</span></div>
+		</div>
+		<div class="pingjiamain">
+			<div class="pingjiawenzi">
+				<span class="p1">收到的评价</span>
+				<div class="hongxian"></div>
+				<span class="p2">我发起的评价</span>
+				<span class="p3">法律仲裁</span>
+			</div>
+			<div class="pingjiaContent">
+				<div class="pingjiadiv1">
+					<div class="pingjiasan">
+						<span id="pingjiabiaoti">
+							干活不认真
+						</span>
+						<span id="pingjialeirong">
+							广东建粤工程有限公司
+						</span>
+					</div>
+					<div class="pingjiaxian"></div>
+					<div class="pingjiashijian">2018-8-8</div>
+				</div>
+				<div class="pingjiadiv2">
+					<div class="pingjiasan">
+						<span id="pingjiabiaoti">
+							私生活不检点
+						</span>
+						<span id="pingjialeirong">
+							广东建粤工程有限公司
+						</span>
+					</div>
+					<div class="pingjiaxian"></div>
+					<div class="pingjiashijian">2018-8-8</div>
+				</div>
+				<div class="pingjiadiv3">
+					<div class="pingjiasan">
+						<span id="pingjiabiaoti">
+							态度棒棒的
+						</span>
+						<span id="pingjialeirong">
+							广东建粤工程有限公司
+						</span>
+					</div>
+					<div class="pingjiaxian"></div>
+					<div class="pingjiashijian">2018-8-8</div>
+				</div>
+				<div class="pingjiadiv4">
+					<div class="pingjiasan">
+						<span id="pingjiabiaoti">
+							态度还不错
+						</span>
+						<span id="pingjialeirong">
+							广东建粤工程有限公司
+						</span>
+					</div>
+					<div class="pingjiaxian"></div>
+					<div class="pingjiashijian">2018-8-8</div>
+				</div>
+			</div>
+		</div>
+		<div class="pingjiatianjia"></div>
+
+		<div class="foot">
+			<div class="divFoot"></div>
+			<div class="divFoot"></div>
+			<div class="divFoot"><img src="img/雄安实名制移动端_登录页_03_08.png" /></div>
+			<div class="divFoot"></div>
+		</div>
+
+		<script type="text/javascript">
+			var pingjiatianjia = document.querySelector('.pingjiatianjia')
+			var foot1 = document.querySelector('.foot .divFoot:nth-child(1)')
+			var foot2 = document.querySelector('.foot .divFoot:nth-child(2)')
+			var foot3 = document.querySelector('.foot .divFoot:nth-child(3)')
+			var foot4 = document.querySelector('.foot .divFoot:nth-child(4)')
+			
+			
+			
+			foot1.onclick = function() {
+				window.location.href = 'index.html'
+			}
+			foot2.onclick = function() {
+				window.location.href = 'gongzuolvli.html'
+			}
+			foot3.onclick = function() {
+				window.location.href = 'pingjia.html'
+			}
+			foot4.onclick = function() {
+				window.location.href = 'gerenxinxi.html'
+			}
+            pingjiatianjia.onclick = function(){
+				window.location.href = 'error.html'
+			}
+			var p3 = document.querySelector('.p3')
+			var p2 = document.querySelector('.p2')
+
+			p3.onclick = function() {
+				window.location.href = 'pingjia2.html'
+			}
+			p2.onclick = function() {
+				window.location.href = 'pingjia1.html'
+			}
+		</script>
+	</body>
+
+</html>

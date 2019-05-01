@@ -1,0 +1,1266 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+}
+body,html{
+	width: 1004px;
+	height: 1735px;
+}
+.head,.head1{
+    width: 1004px;
+	height: 127px;
+	background-color: #fafafa;
+	position: relative;
+}
+
+.head1 .headLogo1{
+	width: 200px;
+	height: 50px;
+	position: absolute;
+	margin: 44px 404px 33px 401px;
+}
+
+.headLogo1{
+    width: 100px;
+    height: 50px; 
+    position: absolute;
+    margin: 44px 452px 33px 453px; 
+}
+
+#sp1{ 
+	font-family: MicrosoftYaHei;
+	font-size: 50px;
+	line-height: 50px;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0px;
+	color: #393939;
+}
+
+.headLogo2{
+	width: 57px;
+	height: 85px;
+	background-image: url(../img/雄安实名制移动端_首页_03.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	position: absolute;
+	top: 26px;
+	right: 34px;	
+}
+
+.swiper1{
+	width: 1004px;
+	height: 462px;
+}
+.swiper1 .swiper-container,.swiper1 .swiper-wrapper{
+	width: 1004px;
+	height: 462px;	
+	position: relative;
+}
+
+.swiper2{
+	width: 1004px;
+	height: 120px;
+	position: absolute;
+	top: 130px;	
+	left: 0px;
+}
+.swiper2 .swiper-container{
+	width: 753px ;
+	height: 120px;
+	position:absolute;
+	top: 0px;
+	left: 113px ;
+}
+.swiper2 .swiper-wrapper{
+	width: 753px ;
+	height: 120px;
+	position: absolute;
+	left: 113px;
+}
+
+.gongzitu{
+	margin-left: 27px;
+	margin-right: 0 !important;
+	width: 233px !important;
+	height: 120px;
+	background-color: #b22329;
+	border-radius: 6px;	
+	font-size: 21px;
+	color: #FFFFFF;
+}
+
+.swiper2 .swiper-button-prev{
+	margin-left: 86px;
+	margin-bottom: 77px;
+}
+
+.swiper2 .swiper-button-next{
+	margin-right:-86px ;
+	margin-bottom: 77px;
+}
+
+/*.Dian{
+	width: 135px;
+	height: 31px;
+	margin: 418px 37px 13px 814px;
+	position: absolute;
+}*/
+
+/*.dian{
+	width: 17px;
+	height: 17px;
+	border-radius: 8.5px;
+	border: solid 3px #ffffffblack;	
+	margin-top: 0;
+}*/
+
+.xinwen{
+	width: 1004px;
+	height: 89px;
+	background-color: #ffffff;
+	box-shadow: 0px 0px 6px 1px 
+		rgba(44, 44, 44, 0.64);
+}
+
+.xinwen #sp2{
+    margin:32px 30px 66px;
+    display: block;
+    width: 611px;
+	height: 27px;
+	line-height: 27px;
+	font-family: MicrosoftYaHei;
+	font-size: 27px;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0px;
+	color: #b4282d;
+}
+
+.other{
+	margin-top: 6px;
+	width: 1004px;
+	height: 939px;
+	background-color: #ffffff;
+}
+
+.other1{
+	margin-top: 37px;
+	margin-left: 27px;
+	width: 955px;
+	height: 154px;
+	background-color: #f7f7f7;
+	box-shadow: 0px 3px 3px 0px 
+		rgba(44, 44, 44, 0.36);
+		position: relative;
+}
+
+.other1 .safeUp{
+	width: 905px;
+	height: 33px;
+	position: absolute;
+	top: 29px;
+	left: 22px;
+	background-image: url(../img/雄安实名制移动端_首页_07.png);
+	background-repeat: no-repeat;
+	background-size: 32px 32px;
+}
+.safeDown{
+	width: 905px;
+	height: 33px;
+	position: absolute;
+	top: 92px;
+	bottom: 28px;
+	left: 22px;
+}
+.safeUp .sp1{
+	display: block;
+	position: absolute;
+	top:0px ;
+	margin-left: 47px;
+	width: 198px;
+	height: 33px;
+	font-family: MicrosoftYaHei;
+	font-size: 33px;
+	line-height: 33px;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0px;
+	color: #515151;
+}
+.safeUp .sp2{
+	display: inline-blockblock;
+	position: absolute;
+	top:0px ;
+	right:0px;
+	width: 19px;
+	height: 33px;
+	font-size: 33px;
+	line-height: 33px;
+	color: #6e6e6e;
+}
+.safeDown .sp1{
+	display: block;
+	position: absolute;
+	top:0px ;
+	margin-left: 47px;
+	width: 905px;
+	height: 33px;
+	font-family: MicrosoftYaHei;
+	font-size: 33px;
+	line-height: 33px;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0px;
+	color: #515151;
+}
+.other2{
+	position: relative;
+	margin-top: 30px;
+	margin-left: 28px;
+	width: 955px;
+	height: 283px;
+	background-color: #f7f7f7;
+	box-shadow: 0px 3px 3px 0px 
+		rgba(44, 44, 44, 0.36);
+}
+
+.gengduo{
+	position: absolute;
+	right: 29px;
+	width: 50px;
+	height: 25px;
+	text-align: center;
+	font-family: MicrosoftYaHei;
+	font-size: 25px;
+	line-height: 33px;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0px;
+	color: #515151;
+}
+
+.other2 .safeUp{
+	width: 905px;
+	height: 33px;
+	position: absolute;
+	top: 29px;
+	left: 22px;
+	background-image: url(../img/雄安实名制移动端_首页_10.png);
+	background-repeat: no-repeat;
+	background-size: 32px 32px;
+}
+
+.other3{
+	margin-top: 31px;
+	margin-left: 28px;
+	width: 955px;
+	height: 424px;
+	background-color: #f7f7f7;
+	position: relative;
+}
+
+.other3 .safeUp{
+	width: 905px;
+	height: 34px;
+	position: absolute;
+	top: 29px;
+	left: 22px;
+	background-image: url(../img/雄安实名制移动端_首页_12.png);
+	background-repeat: no-repeat;
+	background-size: 32px 34px;
+}
+
+.foot{
+	width: 1004px;
+	height: 121px;
+	background-color: #f7f7f7;
+	box-shadow: 0px 0px 21px 0px 
+		rgba(44, 44, 44, 0.38);
+	display: flex;
+	justify-content: space-around;
+	position: fixed;
+	bottom: 0;
+	z-index: 9999999999999999999999;
+}
+
+.divFoot{
+	margin-top: 21px;	
+}
+
+.foot .divFoot:nth-child(1){
+	width: 58px;
+	height: 86px;
+	background-image: url(../img/雄安实名制移动端_登录页_03_03.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.foot .divFoot:nth-child(4){
+	width: 58px;
+	height: 86px;
+	background-image: url(../img/雄安实名制移动端_登录页_09.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.foot .divFoot:nth-child(2){
+	width: 116px;
+	height: 86px;
+	background-image: url(../img/雄安实名制移动端_登录页_05.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.foot .divFoot:nth-child(3){
+	width: 116px;
+	height: 86px;
+	background-image: url(../img/雄安实名制移动端_登录页_07.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+
+/*pingjia.html*/
+.pingjiamain{
+	width: 954px;
+	height: 1410px;
+	margin: 50px 24px 27px 26px;
+	position: relative;
+}
+
+.pingjiawenzi{
+	width: 762px;
+	height: 37px;
+	position: absolute;
+	top: 0;
+	left: 84px;
+	display: flex;
+	justify-content: space-between;
+}
+.hongxian{
+	width: 161px;
+	height: 5px;
+	background-color: #b22329;
+	border-radius: 3px;
+	position: absolute;
+	top: 55px;
+	left: 15px;
+}
+.pingjiawenzi span{
+	display: inline-block;
+	font-family: MicrosoftYaHei;
+	font-size: 38px;
+	font-weight: normal;
+	font-stretch: normal;
+	color: #393939;
+	text-align: center;
+	line-break: 37px;
+}
+
+.pingjiaContent{
+	width: 954px;
+	height: 1272px;
+	position: absolute;
+	top: 138px;
+	left: 26px;
+}
+.pingjiadiv1,.pingjiadiv2,.pingjiadiv3,.pingjiadiv4{
+	width: 954px;
+	height: 259px;
+	background-color: #f7f7f7;
+	border-radius: 6px;
+	position: relative;
+}
+
+.pingjiadiv1 {
+	margin-top: 0;
+}
+.pingjiadiv2,.pingjiadiv3{
+	margin-top: 64px;
+}
+.pingjiadiv4{
+	margin-top: 64px;
+	margin-bottom: 44px;
+}
+.pingjiaxian{
+	width: 954px;
+	height: 2px;
+	background-color: #dcdcdc;
+	border-radius: 1px;
+	position: absolute;
+	top: 173px;
+}
+.pingjiashijian{
+	width: 160px;
+	height: 24px;
+	font-family: MicrosoftYaHei;
+	font-size: 29px;
+	/*text-align: center;*/
+	line-height: 24px;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0px;
+	color: #737070;
+	position: absolute;
+	bottom: 28px;
+	left: 43px;
+}
+.pingjiasan{
+	width: 954px;
+	height: 173px;
+	position: relative;
+}
+.pingjiadiv1 .pingjiasan,.pingjiadiv2 .pingjiasan{
+	background-image:url(../img/差.png) ;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 28px;
+	left:805px;
+}
+.pingjiadiv3 .pingjiasan{
+	background-image:url(../img/大笑.png) ;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 28px;
+	left:805px;
+}
+.pingjiadiv4 .pingjiasan{
+	background-image:url(../img/微笑.png) ;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 28px;
+	left:805px;
+}
+
+.gzllHehe .pingjiadiv1 .pingjiasan,.gzllHehe .pingjiadiv2 .pingjiasan,.gzllHehe .pingjiadiv3 .pingjiasan,.gzllHehe .pingjiadiv4 .pingjiasan{
+	background-image:url(../img/履历.png) ;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 28px;
+	left:820px;
+}
+
+#pingjiabiaoti{
+	width: 255px;
+	height: 41px;
+	font-family: MicrosoftYaHei;
+	font-size: 42px;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0px;
+	color: #b22329;
+	position: absolute;
+	top: 14px;
+	left:-776px;
+}
+#pingjialeirong{
+	width: 290px;
+	height: 30px;
+	font-family: MicrosoftYaHei;
+	font-size: 29px;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0px;
+	color: #737373;
+	position: absolute;
+	top: 83px;
+	left:-776px;
+}
+.pingjiatianjia{
+	width: 167px;
+	height: 167px;
+	background-image: url(../img/雄安实名制移动端_用工评价_03.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 1420px;
+	right: 398px;
+	left: 389px;
+}
+.xiangxi{
+	width: 174px;
+	height: 36px;
+	background-image: url(../img/xiangxi.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	bottom: 22px;
+	right: 41px;
+}
+
+/*pingjia2.html*/
+.weiquanshuoming{
+	width: 797px;
+	height: 104px;
+	font-family: MicrosoftYaHei;
+	font-size: 38px;
+	line-height: 76px;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0px;
+	color: #5d5d5d;
+	position: absolute;
+	top: 368px;
+	left: 89px;
+}
+.weiquananniu{
+	width: 381px;
+	height: 86px;
+	background-color: #b22329;
+	border-radius: 43px;
+	position: absolute;
+	top: 618px;
+	left: 309px;
+}
+#weiquanSp{
+	display: block;
+	width: 170px;
+	height: 42px;
+	line-height: 42px;
+	font-family: MicrosoftYaHei;
+	font-size: 42px;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0px;
+	color: #ffffff;
+	position: absolute;
+	top: 23px;
+	left: 108px;
+}
+.dianhuakuang{
+	width: 693px;
+	height: 239px;
+	background-image: url(../img/维权拨打电话_03.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 770px;
+	left: 155px;	
+}
+/*pingjia1.html*/
+.yhpjContent1{
+	width: 954px;
+	height: 461px;
+	background-color: #f7f7f7;
+	border-radius: 6px;
+	position: absolute;
+	top: 315px;
+	left: 26px;
+	margin-bottom: 79px;
+}
+.sannjiaoPlay1,.sannjiaoPlay2{
+	width: 50px;
+	height: 63px;
+	position: absolute;
+	top: 54px;
+	left: 723px;
+	display: block;
+}
+.shuangganStop1,.shuangganStop2{
+	width: 46px;
+	height: 64px;
+	position: absolute;
+	top: 54px;
+	left: 725px;
+	display: none;
+}
+.yhpjContent2{
+	width: 954px;
+	height: 461px;
+	background-color: #f7f7f7;
+	border-radius: 6px;
+	position: absolute;
+	top: 855px;
+	left: 26px;
+	margin-bottom: 79px;
+}
+.yhpjWenzi1{
+	display: inline-block;
+	width: 340px;
+	height: 41px;
+	font-family: MicrosoftYaHei;
+	line-height: 42px;
+	font-size: 42px;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0px;
+	color: #b22329;
+	position: absolute;
+	top: 42px;
+	left: 39px;
+}
+.yhpjWenzi2{
+	display: inline-block;
+	width: 295px;
+	height: 30px;
+	font-family: MicrosoftYaHei;
+	line-height: 29px;
+	font-size: 29px;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0px;
+	color: #737373;
+	position: absolute;
+	top: 111px;
+	left: 39px;
+}
+.yhpjWenzi4{
+	display: inline-block;
+	width: 258px;
+	height: 24px;
+	font-family: MicrosoftYaHei;
+	font-size: 29px;
+	line-height: 29px;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0px;
+	color: #737070;
+	position: absolute;
+	top: 409px;
+	left: 667px;
+}
+.yhpj_line{
+	width: 954px;
+	height: 2px;
+	background-color: #6e6e6e;
+	border-radius: 1px;
+	position: absolute;
+	top: 173px;
+}
+.yhpjP{
+	width: 369px;
+	height: 162px;
+	position: absolute;
+	top: 222px;
+	left: 39px;
+	display: flex;
+	justify-content: space-between;
+}
+.yhpjButton{
+	width: 381px;
+	height: 86px;
+	border-radius: 43px;
+	background-image: url(../img/我发起的评价_09.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 1440px;
+	left: 309px;
+	
+}
+/*个人信息*/
+.grxxTouxiang{
+	height: 446px;
+	width: 1004px;
+	background-color: #fafafa;
+	position: relative;
+}
+.touxiang{
+	width: 206px;
+	height: 206px;
+	border-radius: 103px;
+	border: 1px solid rgb(152,152,152);
+	position: absolute;
+	bottom:146px ;
+	left: 390.5px;
+}
+.grxxTouxiang span{
+	display: block;
+	width: 260px;
+	height: 50px;
+	font-family: MicrosoftYaHei;
+	font-size: 50px;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0px;
+	color: #565656;
+	position: absolute;
+	bottom: 58px;
+	left: 372px;
+}
+.grxxXiangxi{
+	width: 1004px;
+	height: 905px;
+}
+.grxxXiangxi .xinxi{
+	width: 1004px;
+	height: 99px;
+	background-color: #f7f7f7;
+	margin-top: 11px;
+	position: relative;
+}
+
+
+.grxxXiangxi .tuichudenglu{
+	width: 1004px;
+	height: 100px;
+	background-color: #f7f7f7;
+	margin-top: 112px;
+}
+
+.xxMingcheng{
+	display: block;	
+	width: 190px;
+	height: 37px;
+	font-family: MicrosoftYaHei;
+	font-size: 38px;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0px;
+	color: #565656;
+	position: absolute;
+	top: 31px;
+	left: 48px;
+}
+.xxNeirong{
+	display: block;	
+	width: 610px;
+	height: 38px;
+	font-family: MicrosoftYaHei;
+	font-size: 38px;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0px;
+	color: #565656;
+	text-align: right;
+	position: absolute;
+	bottom: 26px;
+	right: 49px;
+}
+.tuichudenglu{
+	position: relative;
+}
+.tuichudenglu span{
+	display: block;
+	width: 172px;
+	height: 42px;
+	line-height: 42px;
+	font-family: MicrosoftYaHei-Bold;
+	font-size: 42px;
+	font-weight: bold;
+	font-stretch: normal;
+	letter-spacing: 0px;
+	color: #636363;
+	position: absolute;
+	top: 31px;
+	left: 416px;
+}
+/*登陆*/
+.denglu{
+	width: 1004px;
+	height: 1735px;
+	position: relative;
+}
+.denglu #dengluwenzi{
+	display: block;
+	width: 100px;
+	height: 48px;
+	line-height: 48px;
+	font-family: MicrosoftYaHei;
+	font-size: 50px;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0px;
+	color: #262626;
+	position: absolute;
+	top: 40px;
+	left: 449px;
+}
+.denglu #gongyouzhijia{
+	display: block;
+	width: 300px;
+	height: 74px;
+	line-height: 74px;
+	font-family: MicrosoftYaHei-Bold;
+	font-size: 75px;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0px;
+	color: #b22329;
+	position: absolute;
+	top: 307px;
+	left: 349px;
+}
+.gongyouPicture{
+	width: 900px;
+	height: 171px;
+	background-image: url(../img/工人之家.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 532px;
+	left: 57px;
+}
+.shurukuang{
+	width: 906px;
+	height: 225px;
+	position: absolute;
+	top: 1105px;
+	left: 46px;
+}
+.lvgou1{
+	width: 55px;
+	height: 45px;
+	background-image: url(../img/dengluye_gougou.png);
+	position: absolute;
+	top: 26px;
+	left: 828px;
+	display: block;
+}
+.lvgou2{
+	width: 55px;
+	height: 45px;
+	background-image: url(../img/dengluye_gougou.png);
+	position: absolute;
+	top: 156px;
+	left: 828px;
+	display: block;
+}
+.hongcha1{
+	width: 55px;
+	height: 45px;
+	background-image: url(../img/叉.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 26px;
+	left: 828px;
+	display: none;
+}
+.hongcha2{
+	width: 55px;
+	height: 45px;
+	background-image: url(../img/叉.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 156px;
+	left: 828px;
+	display: none;
+}
+.shurukuang #idCard{
+	width: 906px;
+	height: 95px;
+	background-color: #f7f7f7;
+	border-radius: 6px;
+	border: solid 2px #b5b5b5;
+	position: absolute;
+	top: 0;
+	font-size: 38px;
+}
+.shurukuang #idPhone{
+	width: 906px;
+	height: 95px;
+	background-color: #f7f7f7;
+	border-radius: 6px;
+	border: solid 2px #b5b5b5;
+	position: absolute;
+	top: 130px;
+	font-size: 38px;
+}
+input::-webkit-input-placeholder{
+	width: 262px;
+	height: 38px;
+	line-height:38px;
+	font-family: MicrosoftYaHei;
+	font-size: 38px;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0px;
+	color: #949292;
+	padding-left: 23px;
+}
+.yanzhengma{
+	width: 906px;
+	height: 95px;
+	background-color: #b22329;
+	border-radius: 6px;
+	position: absolute;
+	top: 1365px;
+	left: 46px;
+}
+.yanzhengma .fasong{
+	display: block;
+	width: 210px;
+	height: 41px;
+	line-height: 41px;
+	font-family: MicrosoftYaHei;
+	font-size: 42px;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0px;
+	color: #ffffff;
+	margin-top: 27px;
+	margin-left: 349px;
+}
+.resultDiv{
+	height: 38px;
+	width: 550px;
+	line-height: 38px;
+	font-family: MicrosoftYaHei;
+	font-size: 38px;
+	font-weight: 550;
+	font-stretch: normal;
+	letter-spacing: 0px;
+	color: rgb(180,67,70);
+	position: absolute;
+	top: 1040px;
+	left: 70px;
+	display: none;
+	
+}
+.yuan{
+	width: 60px;
+	height: 60px;
+	border-radius: 30px;
+	border: solid 3px #b5b5b5;
+	position: absolute;
+	top: 1523px;
+	left: 46px;
+}
+.hongyuan{
+	width: 44px;
+	height: 44px;
+	border-radius: 20px;
+	background-color: #b22329;
+	position: absolute;
+	top: 1531px;
+	left: 54px;
+}
+.hongyuan.white {
+    background-color: white;
+}
+#tongyiwenzi{
+	display: inline-block;
+	width: 345px;
+	height: 38px;
+	line-height: 38px;
+	font-family: MicrosoftYaHei;
+	font-size: 38px;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0px;
+	color: #b22329;
+	position: absolute;
+	top: 1535px;
+	left: 116px;
+}
+/*error.html*/
+.errorMain{
+	width: 1004px;
+	height: 1735px;
+	position: relative;
+}
+.error{
+	width: 346px;
+	height: 346px;
+	position: absolute;
+	top: 535px;
+	left: 331px;
+}
+.errorWenzi1{
+	display: block;
+	width: 675px;
+	height: 42px;
+	font-family: MicrosoftYaHei;
+	font-size: 42px;
+	line-height: 42px;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0px;
+	color: #393939;
+	position: absolute;
+	top: 941px;
+	left: 166px;
+}
+.errorBack{
+	background-image: url(../img/错误提醒页面_06.png);
+	background-repeat: no-repeat;
+	width: 104px;
+	height: 36px;
+	position: absolute;
+	top: 55px;
+	left: 26px;
+	z-index: 100;
+}
+.errorWenzi2{
+	display: block;
+	width: 352px;
+	height: 52px;
+	font-family: MicrosoftYaHei;
+	font-size: 52px;
+	line-height: 52px;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0px;
+	color: #393939;
+	position: absolute;
+	top: 1657px;
+	left: 322.5px;
+}
+/*lvlixiangxi.html*/
+.lvli_main{
+	width: 1004px;
+	height: 1735px;
+	position: relative;
+}
+.lvliXiangxi_head{
+	width: 1004px;
+	height: 127px;
+	background-color: #fafafa;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.lvli_tu{
+	width: 106px;
+	height: 35px;
+	background-image: url(../img/工作履历详细_03.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 56px;
+	left: 25px;
+}
+#lvli_headMC{
+	display: block;
+	width: 300px;
+	height: 50px;
+	font-family: MicrosoftYaHei;
+	line-height: 50px;
+	font-size: 50px;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0px;
+	color: #393939;
+	position: absolute;
+	top: 44px;
+	left: 352px;
+}
+.lvli_Contenet{
+	width: 901px;
+	height: 746px;
+	background-color: #f7f7f7;
+	box-shadow: 0px 3px 3px 0px 
+		rgba(44, 44, 44, 0.36);
+	border-radius: 14px;
+	position: absolute;
+	top: 162px;
+	left: 47px;
+}
+.shuxian{
+	width: 4px;
+	height: 738px;
+	background-color: #e5e5e5;
+	border-radius: 2px;
+	position: absolute;
+	top: 4px;
+	left: 320px;
+}
+.hengxian{
+	width: 897px;
+	height: 5px;
+	background-color: #e5e5e5;
+	border-radius: 3px;
+}
+.x1{
+	position: absolute;
+	top: 81px;
+	left: 0;
+}
+.x2{
+	position: absolute;
+	top: 163px;
+	left: 0;
+}
+.x3{
+	position: absolute;
+	top: 245px;
+	left: 0;
+}
+.x4{
+	position: absolute;
+	top: 327px;
+	left: 0;
+}
+.x5{
+	position: absolute;
+	top: 409px;
+	left: 0;
+}
+.x6{
+	position: absolute;
+	top: 491px;
+	left: 0;
+}
+.x7{
+	position: absolute;
+	top: 573px;
+	left: 0;
+}
+.x8{
+	position: absolute;
+	top: 655px;
+	left: 0;
+}
+#daodile{
+	display: block;
+	width: 80px;
+	height: 21px;
+	font-family: MicrosoftYaHei;
+	line-height: 21px;
+	font-size: 21px;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0px;
+	color: #737070;
+	position: absolute;
+	top: 1704px;
+	left: 469px;
+}
+.wL{
+	display: inline-block;
+	width: 133px;
+	height: 33px;
+	font-family: MicrosoftYaHei;
+	font-size: 33px;
+	line-height: 33px;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0px;
+	color: #393939;
+}
+.l1{
+	position: absolute;
+	top: 32px;
+	left: 118px;
+}
+.l2{
+	position: absolute;
+	top: 114px;
+	left: 118px;
+}
+.l3{
+	position: absolute;
+	top: 196px;
+	left: 118px;
+}
+.l4{
+	position: absolute;
+	top: 278px;
+	left: 118px;
+}
+.l5{
+	position: absolute;
+	top: 364px;
+	left: 155px;
+}
+.l6{
+	position: absolute;
+	top: 442px;
+	left: 118px;
+}
+.l7{
+	position: absolute;
+	top:524px;
+	left: 118px;
+}
+.l8{
+	position: absolute;
+	top: 606px;
+	left: 118px;
+}
+.l9{
+	position: absolute;
+	top: 688px;
+	left: 118px;
+}
+.r1{
+	display: block;
+	width: 198px;
+	height: 33px;
+	font-family: MicrosoftYaHei;
+	line-height: 33px;
+	font-size: 33px;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0px;
+	color: #393939;
+	position: absolute;
+	top: 32px;
+	left: 531px;
+}
+.wR{
+	display: block;
+	width: 60px;
+	height: 4px;
+	font-family: MicrosoftYaHei;
+	line-height: 33px;
+	font-size: 33px;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0px;
+	color: #393939;
+}
+.r2{
+	position: absolute;
+	top: 112px;
+	left: 611px;
+}
+.r3{
+	position: absolute;
+	top: 194px;
+	left: 611px;
+}
+.r4{
+	position: absolute;
+	top: 276px;
+	left: 611px;
+}
+.r5{
+	position: absolute;
+	top: 358px;
+	left: 611px;
+}
+.r6{
+	position: absolute;
+	top: 440px;
+	left: 611px;
+}
+.r7{
+	position: absolute;
+	top: 522px;
+	left: 611px;
+}
+.r8{
+	position: absolute;
+	top: 604px;
+	left: 611px;
+}
+.r9{
+	position: absolute;
+	top: 686px;
+	left: 611px;
+}
+#chuqinshu{
+	display: inline-block;
+	width: 242px;
+	height: 25px;
+	font-family: MicrosoftYaHei;
+	line-height: 25px;
+	font-size: 25px;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0px;
+	color: #b22329;
+	position: absolute;
+	top: 88px;
+	left: 69px;
+}
+.daojishi1,.daojishi2{
+	width: 200px;
+	height: 27px;
+	font-family: MicrosoftYaHei;
+	line-height: 33px;
+	font-size: 33px;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0px;
+	color: #b22329;
+	position: absolute;
+	top: 73px;
+	left: 789px;
+	display: none;	
+}

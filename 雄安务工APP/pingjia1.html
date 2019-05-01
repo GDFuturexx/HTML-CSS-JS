@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=1004,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/main.css" />
+		<title>我的评价/我发起的评价</title>
+	</head>
+
+	<body>
+		<div class="head1">
+			<div class="headLogo1"><span id="sp1">我的评价</span></div>
+		</div>
+		<div class="pingjiamain">
+			<div class="pingjiawenzi">
+				<span class="p1">收到的评价</span>
+				<div class="hongxian" style="left: 320px;"></div>
+				<span class="p2">我发起的评价</span>
+				<span class="p3">法律仲裁</span>
+			</div>
+		</div>
+
+		<div class="yhpjContent1">
+			<span class="yhpjWenzi1">饭不好吃</span>
+			<span class="yhpjWenzi2">广东建粤工程有限公司</span>
+			<audio src="img/gaobaiqiqiu.mp3"></audio>
+			<div class="sannjiaoPlay1">
+				<img src="img/我发起的评价_03.png" />
+			</div>
+			<div class="shuangganStop1">
+				<img src="img/我发起的评价_06.png" />
+			</div>
+			<div class="daojishi1">
+				00：59
+			</div>
+			<div class="yhpj_line"></div>
+			<div class="yhpjP">
+				<img src="img/f6749dc1347f0ab396c9130925aba350.jpg" />
+				<img src="img/d205ac22bffcd17459b00b38123fae48.jpg" />
+			</div>
+			<span class="yhpjWenzi4">2018-8-18  17：20</span>
+		</div>
+		<div class="yhpjContent2">
+			<span class="yhpjWenzi1">今天的饭菜很好吃</span>
+			<span class="yhpjWenzi2">广东建粤工程有限公司</span>
+			<div class="sannjiaoPlay2">
+				<img src="img/我发起的评价_03.png" />
+			</div>
+			<div class="shuangganStop2">
+				<img src="img/我发起的评价_06.png" />
+			</div>
+			<div class="daojishi2">
+				00：59
+			</div>
+			<div class="yhpj_line"></div>
+			<div class="yhpjP">
+				<img src="img/d6537a695c638a07c7fac53805521f7c.jpg" />
+				<img src="img/61b4d1b091584540d54ec7f029e13af7.jpg" />
+			</div>
+			<span class="yhpjWenzi4">2018-8-18  18：18</span>
+		</div>
+
+		<div class="yhpjButton"></div>
+
+		<div class="foot">
+			<div class="divFoot"></div>
+			<div class="divFoot"></div>
+			<div class="divFoot"><img src="img/雄安实名制移动端_登录页_03_08.png" /></div>
+			<div class="divFoot"></div>
+		</div>
+
+		<script type="text/javascript">
+			var yhpjButton = document.querySelector('.yhpjButton')
+			var p1 = document.querySelector('.p1')
+			var p3 = document.querySelector('.p3')
+			var foot1 = document.querySelector('.foot .divFoot:nth-child(1)')
+			var foot2 = document.querySelector('.foot .divFoot:nth-child(2)')
+			var foot3 = document.querySelector('.foot .divFoot:nth-child(3)')
+			var foot4 = document.querySelector('.foot .divFoot:nth-child(4)')
+			var play1 = document.querySelector('.sannjiaoPlay1')
+			var stop1 = document.querySelector('.shuangganStop1')
+			var play2 = document.querySelector('.sannjiaoPlay2')
+			var stop2 = document.querySelector('.shuangganStop2')
+			var a1 = document.querySelector('audio')
+			var daojishi1 = document.querySelector('.daojishi1')
+			var daojishi2 = document.querySelector('.daojishi2')
+				//保证用户体验，要跟用户交互才能调用此功能
+			a1.autoplay = false;
+			//						a1.muted = true;
+			//						$(".sannjiaoPlay").click(function() {
+			//			
+			//							if(a1.paused) {
+			//								a1.play();
+			//								$(this).css("display", "none");
+			//								$(".shuangganStop").css("display", "block");
+			//							} else {
+			//								a1.pause();
+			//								$(this).css("display", "block");
+			//								$(".shuangganStop").css("display", "none");
+			//							}
+			//			
+			//						});
+			play1.onclick = function() {
+
+				if(a1.paused) {
+					a1.play()
+					play1.style.display = "none"
+					stop1.style.display = "block"
+					daojishi1.style.display = "block"
+				} else {
+					a1.pause()
+					play1.style.display = "block"
+					stop1.style.display = "none"
+					daojishi1.style.display = "none"
+				}
+			}
+			play2.onclick = function() {
+
+					if(a1.paused) {
+						a1.play()
+						play2.style.display = "none"
+						stop2.style.display = "block"
+						daojishi2.style.display = "block"
+					} else {
+						a1.pause()
+						play2.style.display = "block"
+						stop2.style.display = "none"
+						daojishi2.style.display = "none"
+					}
+				}
+				//			$(".shuangganStop").click(function() {
+				//
+				//				if(a1.played) {
+				//					a1.pause();
+				//					$(".sannjiaoPlay").css("display", "block");
+				//					$(this).css("display", "none");
+				//				} else {
+				//					a1.play();
+				//					$(".sannjiaoPlay").css("display", "none");
+				//					$(this).css("display", "block");
+				//				}
+				//
+				//			});
+			stop1.onclick = function() {
+
+				if(a1.played) {
+					a1.pause()
+					play1.style.display = "block"
+					stop1.style.display = "none"
+					daojishi1.style.display = "none"
+				} else {
+					a1.play()
+					play1.style.display = "none"
+					stop1.style.display = "block"
+					daojishi1.style.display = "block"
+				}
+			}
+			stop2.onclick = function() {
+
+				if(a1.played) {
+					a1.pause()
+					play2.style.display = "block"
+					stop2.style.display = "none"
+					daojishi2.style.display = "none"
+					
+				} else {
+					a1.play()
+					play2.style.display = "none"
+					stop2.style.display = "block"
+					daojishi2.style.display = "block"
+				}
+			}
+
+			foot1.onclick = function() {
+				window.location.href = 'index.html'
+			}
+			foot2.onclick = function() {
+				window.location.href = 'gongzuolvli.html'
+			}
+			foot3.onclick = function() {
+				window.location.href = 'pingjia.html'
+			}
+			foot4.onclick = function() {
+				window.location.href = 'gerenxinxi.html'
+			}
+			yhpjButton.onclick = function() {
+				window.location.href = 'error.html'
+			}
+			p1.onclick = function() {
+				window.location.href = 'pingjia.html'
+			}
+			p3.onclick = function() {
+				window.location.href = 'pingjia2.html'
+			}
+		</script>
+	</body>
+
+</html>

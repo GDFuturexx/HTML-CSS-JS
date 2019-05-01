@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=1004,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/main.css" />
+		<link rel="stylesheet" type="text/css" href="css/gy_swiper.css" />
+		<link rel="stylesheet" type="text/css" href="css/sign2.css">
+        <script type="text/javascript" src="js/calendar2.js"></script>
+
+		<style type="text/css">
+			.swiper-pagination-bullet {
+				display: inline-block;
+				width: 17px;
+				height: 17px;
+				border-radius: 8.5px;
+				/*background: #ccc;*/
+				border: solid 3px #ffffff;
+			}
+			
+			.swiper-pagination-bullet-active {
+				opacity: 1;
+				display: inline-block;
+				background-image: url(img/douhao.png);
+				width: 18px;
+				height: 32px;
+			}
+		</style>
+		<title>首页</title>
+	</head>
+
+	<body>
+		<div class="head">
+			<div class="headLogo1"><span id="sp1">首页</span></div>
+			<div class="headLogo2"></div>
+		</div>
+		<!--<div class="lunbo">
+			<div class="lunboPicture">
+				<img src="img/1.jpg" alt="" />
+				<img src="img/2.jpg" alt="" />
+				<img src="img/3.jpg" alt="" />
+				<img src="img/4.jpg" alt="" />
+				<img src="img/5.jpg" alt="" />
+			</div>-->
+		<div class="swiper1">
+			<div class="swiper-container">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide"><img src="img/1.jpg" alt="" /></div>
+					<div class="swiper-slide"><img src="img/2.jpg" alt="" /></div>
+					<div class="swiper-slide"><img src="img/3.jpg" alt="" /></div>
+					<div class="swiper-slide"><img src="img/4.jpg" alt="" /></div>
+					<div class="swiper-slide"><img src="img/5.jpg" alt="" /></div>
+				</div>
+
+				<div class="swiper-pagination"></div>
+				<!--<div class="Dian">
+			<div class="dian"></div>
+			<div class="dian"></div>
+			<div class="dian"></div>
+			<div class="dian"></div>
+			<div class="dian"></div>
+			</div>-->
+			</div>
+		</div>
+		<div class="xinwen">
+			<marquee behavior="scroll" direction="left" loop="Infinite">
+				<span id="sp2">
+                       	头条：8岁双胞胎海边失踪后双双溺亡，事发禁泳沙滩危险重重&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                       	头条：北京奥运十周年｜抛弃“唯金牌论”，奥运重塑你我的运动观&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                       	熊黛林为双胞胎女儿办百日宴，一个细节看出熊黛林的高情商&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                       	美国对伊朗下史上最严的狠手，中俄德法英五大国却鼎力支持伊朗&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                       </span>
+			</marquee>
+		</div>
+		<div class="other">
+			<div class="other1">
+				<div class="safeUp"><span class="sp1">安全教育培训</span><span class="sp2">></span></div>
+				<div class="safeDown"><span class="sp1">请积极参与安全教育培训哦，答题赢大奖！</span></div>
+			</div>
+			<div class="other2">
+				<div class="safeUp"><span class="sp1">我的工资</span><span class="gengduo">更多</span><span class="sp2">></span></div>
+				<div class="swiper2">
+					<div class="swiper-container">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide gongzitu" style="margin-left: -104.5px;">2018-1</div>
+							<div class="swiper-slide gongzitu">2018-2</div>
+							<div class="swiper-slide gongzitu">2018-3</div>
+							<div class="swiper-slide gongzitu">2018-4</div>
+							<div class="swiper-slide gongzitu">2018-5</div>
+							<div class="swiper-slide gongzitu">2018-6</div>
+							<div class="swiper-slide gongzitu">2018-7</div>
+							<div class="swiper-slide gongzitu">2018-8</div>
+							<div class="swiper-slide gongzitu">2018-9</div>
+							<div class="swiper-slide gongzitu">2018-10</div>
+							<div class="swiper-slide gongzitu">2018-11</div>
+							<div class="swiper-slide gongzitu">2018-12</div>
+						</div>
+					</div>
+					<div class="swiper-button-next"></div>
+					<div class="swiper-button-prev"></div>
+				</div>
+			</div>
+			<div class="other3">
+				<div class="safeUp"><span class="sp1">我的考勤</span><span class="gengduo">更多</span><span class="sp2">></span></div>
+			<span id="chuqinshu">
+				8月份出勤天数：4天
+			</span>
+			<div style="height:500px;width: 758px;position: absolute;top: 129px;left: 100px;" id="calendar"></div>
+			</div>
+		</div>
+		
+		
+		
+		<div class="foot">
+			<div class="divFoot"><img src="img/雄安实名制移动端_登录页_03.png" /></div>
+			<div class="divFoot"></div>
+			<div class="divFoot"></div>
+			<div class="divFoot"></div>
+		</div>
+
+		<script src="js/jquery-3.3.1.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/swiper.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+		$(function(){
+  //ajax获取日历json数据
+  var signList=[{"signDay":"09"},{"signDay":"11"},{"signDay":"12"},{"signDay":"13"}];
+   calUtil.init(signList);
+});
+		
+			var foot1 = document.querySelector('.foot .divFoot:nth-child(1)')
+			var foot2 = document.querySelector('.foot .divFoot:nth-child(2)')
+			var foot3 = document.querySelector('.foot .divFoot:nth-child(3)')
+			var foot4 = document.querySelector('.foot .divFoot:nth-child(4)')
+			var tongzhi = document.querySelector('.headLogo2')
+			foot1.onclick = function() {
+				window.location.href = 'index.html'
+			}
+			foot2.onclick = function() {
+				window.location.href = 'gongzuolvli.html'
+			}
+			foot3.onclick = function() {
+				window.location.href = 'pingjia.html'
+			}
+			foot4.onclick = function() {
+				window.location.href = 'gerenxinxi.html'
+			}
+			tongzhi.onclick = function() {
+				window.location.href = 'tongzhi.html'
+			}
+
+			var swiper = new Swiper('.swiper1 .swiper-container', {
+				spaceBetween: 30,
+				centeredSlides: true,
+				autoplay: {
+					delay: 2500,
+					disableOnInteraction: false,
+				},
+				pagination: {
+					el: '.swiper1 .swiper-pagination',
+					clickable: true,
+				},
+			});
+
+			var swiper = new Swiper('.swiper2 .swiper-container', {
+				slidesPerView: 3,
+				spaceBetween: 30,
+				slidesPerGroup: 3,
+				loop: true,
+				loopFillGroupWithBlank: true,
+				pagination: {
+					el: '.swiper2 .swiper-pagination',
+					clickable: true,
+				},
+				navigation: {
+					nextEl: '.swiper2 .swiper-button-next',
+					prevEl: '.swiper2 .swiper-button-prev',
+				},
+			});
+		</script>
+	</body>
+
+</html>

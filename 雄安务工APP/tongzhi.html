@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=1004,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/main.css" />
+		<style type="text/css">
+			.dianwo {
+				width: 80px;
+				height: 80px;
+				font-size: 50px;
+				color: red;
+				position: absolute;
+				top: 100px;
+				left: -36px;
+			}
+			
+			.tupian {
+				width: 400px;
+				height: 400px;
+				background-image: url(img/74f3aa339a5404490b3dd007ae631029.jpeg);
+				background-size: 100% auto;
+				position: absolute;
+				left: -210px;
+			}
+			
+			#hahah {
+				display: inline-flex;
+				width: 52px;
+				height: 600px;
+				text-align: center;
+				flex-direction: column;
+				font-size: 52px;
+				align-items: auto;
+				position: absolute;
+				left: 450px;
+				top: 120px;
+				animation: fangda 2s infinite;
+			}
+			
+			.wenhao {
+				width: 800px;
+				height: 1000px;
+				font-size: 1000px;
+				position: absolute;
+				top: 100px;
+				left: -170px;
+				animation: fangda 1.5s infinite;
+			}
+			
+			@keyframes fangda {
+				0 {
+					transform: scale(1);
+				}
+				50% {
+					transform: scale(1.4);
+				}
+				100 {
+					transform: scale(1);
+				}
+			}
+		</style>
+		<title>通知</title>
+	</head>
+
+	<body>
+		<div class="head1">
+			<div class="headLogo1"><span id="sp1">通知公告</span>
+				<div class="tupian"></div>
+				<span id="hahah">
+					回去吧<br/>！通知<br/>？不存在的
+				</span>
+				<div class="wenhao">
+					¿
+				</div>
+				<div class="dianwo">
+					点我
+				</div>
+
+				<script type="text/javascript">
+					var back1 = document.querySelector('.dianwo')
+//					var back2 = document.querySelector('.tupian')
+					back1.onclick = function() {
+						window.location.href = 'index.html'
+					}
+//					back2.onclick = function() {
+//						window.location.href = 'index.html'
+//					}
+				</script>
+
+</html>

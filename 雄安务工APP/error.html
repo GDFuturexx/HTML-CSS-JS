@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=1004,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/main.css" />
+		<title>错误404</title>
+	</head>
+
+	<body>
+		<div class="errorMain">
+			<div class="errorBack"></div>
+			<div class="head1">
+				<div class="headLogo1">		
+					<span id="sp1">错误提示</span>
+				</div>
+			</div>
+			<div class="error">
+				<img src="img/错误提醒页面_09.png" />
+			</div>
+			<span class="errorWenzi1">抱歉，我们努力了，但页面还是丢了</span>
+			<span class="errorWenzi2">错误代码：404</span>			
+		</div>
+		
+		<script type="text/javascript">
+			var back = document.querySelector('.errorBack')
+			
+			back.onclick = function(){
+				window.history.go(-1);
+			}
+		</script>
+	</body>
+
+</html>

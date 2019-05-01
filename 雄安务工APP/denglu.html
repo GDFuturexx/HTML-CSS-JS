@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=1004,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/main.css" />
+		<script src="js/jquery-3.3.1.js" type="text/javascript" charset="utf-8"></script>
+		<title>登陆</title>
+	</head>
+
+	<body>
+
+		<div class="denglu">
+			<span id="dengluwenzi">
+				登录
+			</span>
+			<span id="gongyouzhijia">
+				工友之家
+			</span>
+			<div class="gongyouPicture"></div>
+
+			<div class="shurukuang">
+				<input type="text" name="身份证号" id="idCard" value="" placeholder="请输入身份证号" />
+				<input type="text" name="手机号" id="idPhone" value="" placeholder="请输入手机号" />
+				<div class="lvgou1"></div>
+				<div class="lvgou2"></div>
+				<div class="hongcha1"></div>
+				<div class="hongcha2"></div>
+			</div>
+
+			<div class="yanzhengma">
+				<span class="fasong">发送验证码</span>
+			</div>
+
+			<div class="resultDiv">身份证或手机格式错误</div>
+			<div class="yuan"></div>
+			<div class="hongyuan">
+
+			</div>
+			<span id="tongyiwenzi">
+				我同意用户使用协议
+			</span>
+		</div>
+
+		<script type="text/javascript">
+			$(function() {
+				$(".hongyuan").click(function() {
+					$(this).toggleClass("white");
+				});
+			});
+			var resultDiv = document.querySelector('.resultDiv')
+			var yanzhengma = document.querySelector('.yanzhengma')
+			var shurukuang = document.querySelector('.shurukuang')
+            var lvgou1 = document.querySelector('.lvgou1')
+            var lvgou2 = document.querySelector('.lvgou2')
+            var hongcha1 = document.querySelector('.hongcha1')
+            var hongcha2 = document.querySelector('.hongcha2')
+            var tongyiwenzi = document.querySelector('#tongyiwenzi')
+            
+			yanzhengma.onclick = function() {
+				var inputValue1 = document.getElementById("idCard").value;
+				var inputValue2 = document.getElementById("idPhone").value;
+				if(inputValue1 == "admin" && inputValue2 == "admin") {
+					window.location.href = 'index.html'
+				} else {
+					resultDiv.style.display = 'block'
+					hongcha1.style.display = 'block'
+					hongcha2.style.display = 'block'
+					lvgou1.style.display = 'none'
+					lvgou2.style.display = 'none'
+					
+				}
+			}
+			
+			tongyiwenzi.onclick = function(){
+				window.location.href = 'yonghuxieyi.html'
+			}
+		</script>
+	</body>
+
+</html>
